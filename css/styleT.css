@@ -1,0 +1,95 @@
+.form-select{
+display:block;
+width:100%;
+padding:0.375rem 2.25rem 0.375rem 0.75rem;
+-moz-padding-start:calc(0.75rem - 3px);
+font-size:1rem;
+font-weight:400;
+line-height:1.5;
+color: #212529 ;
+background-color: #ffffff ;
+background-image:url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3e%3cpath fill='none' stroke='%23343a40' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M2 5l6 6 6-6'/%3e%3c/svg%3e");
+background-repeat:no-repeat;
+background-position:right 0.75rem center;
+background-size:16px 12px;
+border:1px solid #ced4da;
+border-radius:0.25rem;
+transition:border-color 0.15s ease-in-out,box-shadow 0.15s ease-in-out;
+-webkit-appearance:none;
+-moz-appearance:none;
+appearance:none;
+}
+
+.SliderT{
+    width: 100%;
+    height: auto;
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    backface-visibility: hidden;
+    animation: slidebg 10s linear infinite 0s;
+    animation-timing-function: ease-in-out;
+    background-image: url(../img/slide-home-address-east.jpg);
+}
+
+@keyframes slidebg{
+    0%{
+        background-image: url(../img/slide-home-address-east.jpg);
+    }
+    25%{
+        background-image: url(../img/slide-home-greens.jpg);
+    }
+    50%{
+        background-image: url(../img/slide-home1-1.jpg);
+    }
+    75%{
+        background-image: url(../img/slide-home1-2.jpg);
+    }
+    
+}
+
+.fxt-template-layout3 .fxt-content{
+    background-color:  #00000099 !important;
+}
+.fxt-template-layout3 .fxt-form h2{
+    color: #ffffff;
+    font-size: 28px;
+    text-align: left;
+}
+input , select, select option , textarea {
+    color: #ffffff !important;
+    background-color: transparent !important;
+    border: 1px solid #9d7a35 !important;
+    font-family: 'Marcellus', serif;
+}
+button{
+    color: #ffffff !important;
+    background-color: #9d7a35 !important;
+    font-family: 'Marcellus', serif;
+}
+input::placeholder{
+    color: #ffffff !important;
+    font-family: 'Marcellus', serif;
+}
+textarea::placeholder{
+    font-family: 'Marcellus', serif;
+    color: #ffffff !important;
+}
+h1 , h2 , h3{
+    color: #ffffff;
+    font-family: 'Marcellus', serif;
+}
+.fxt-template-layout3 .fxt-content{
+    padding: 50px 50px 0px;
+}
+
+@media only screen and (max-width: 800px) {
+    
+ .txtsec{
+     flex-direction: column-reverse;
+ }   
+ .theader{
+    padding: 50px 50px 0px !important;
+    text-align: center !important;   
+ }
+}
